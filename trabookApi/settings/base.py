@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', default=config('secret_key'))
 DEBUG = 'RENDER' not in os.environ
 """ DEBUG = True """
 
-ALLOWED_HOSTS = ['https://trabook-tau.vercel.app/', 'https://trabook-git-main-xhypnos.vercel.app/', 'https://trabook-o2ttbiphu-xhypnos.vercel.app/']
+ALLOWED_HOSTS = []
 
 RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
 
