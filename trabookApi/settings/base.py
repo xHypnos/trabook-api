@@ -71,6 +71,7 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
+    "https://trabook-tau.vercel.app"
 ]
 
 ROOT_URLCONF = 'trabookApi.urls'
